@@ -1,0 +1,114 @@
+*{
+font-family: 'Tilt Warp', cursive;
+font-family: 'Work Sans', sans-serif;
+box-sizing: border-box;
+}
+.section1 {
+  background-color: #papayawhip;
+  padding: 30px;
+  text-align: center;
+    border-radius: 10px;
+}
+.section1 > h1{
+		font-size: 80px;
+		font-style: bold;
+		margin: 0;
+}
+.section1 img{
+	width:60%;
+	max-width:100%;
+	border-radius: 10px;
+}
+.box1  {
+  background-color: palevioletred;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.box1inner img{
+	width:40%;
+	max-width:100%;
+	border-radius: 8px;
+}
+.box2inner img{
+	width:40%;
+	max-width:100%;
+	border-radius: 8px;
+}
+.box3inner img{
+	width:40%;
+	max-width:100%;
+	border-radius: 8px;
+}
+.box4inner img{
+	width:40%;
+	max-width:100%;
+	border-radius: 8px;
+}
+.box5inner img{
+	width:40%;
+	max-width:100%;
+	border-radius: 8px;
+}
+    
+.box1inner, .box2inner, .box3inner, .box4inner, .box5inner {
+  background-color: papayawhip;
+  padding: 5px;
+  margin: 5px;
+}
+.box1inner:hover, .box2inner:hover, .box3inner:hover, .box4inner:hover, .box5inner:hover {
+  background-color: whitesmoke;
+}
+
+.box1inner:hover h2, .box2inner:hover h2, .box3inner:hover h2, .box4inner:hover h2, .box5inner:hover h2 {
+  color: cadetblue;
+}
+.flexParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffe3c2;
+  padding: 14px;
+  border: 2px solid black;
+  margin: 2px;
+  border: dotted;
+}
+
+a:link {
+  text-decoration: underline dashed;
+}
+
+
+a:hover {
+  color: white;
+  background-color: #f097be;
+}
+
+
+a:visited, a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+a:hover {
+  color: black;
+}
+
+
+a:link {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+
+a:visited, a:link {
+  font-size: 30px;
+  font-weight: bold;
+}
+h2::first-letter {
+  font-size: 200%;
+  color: palevioletred;
+}
+
